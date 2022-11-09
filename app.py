@@ -383,14 +383,14 @@ def add_user():
 # Create a route decorator
 @app.route('/')
 def index():
-	first_name = "John"
+	first_name = "Obakanyinsola"
 	stuff = "This is bold text"
 
-	favorite_pizza = ["Pepperoni", "Cheese", "Mushrooms", 41]
+	favorite_daw= ["Logic", "FL", "ABLETON", 41]
 	return render_template("index.html",
 		first_name=first_name,
 		stuff=stuff,
-		favorite_pizza = favorite_pizza)
+		favorite_daw = favorite_daw)
 
 # localhost:5000/user/John
 @app.route('/user/<name>')
